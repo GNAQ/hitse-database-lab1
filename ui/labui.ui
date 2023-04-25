@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1661</width>
+    <height>1003</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DB Homework</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="UPPER_PANEL" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>881</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>思源黑体 CN Medium</family>
+     </font>
+    </property>
+    <widget class="QPushButton" name="constructBtn">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>130</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>构造</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="IDChk">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>学号</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="nameChk">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="ageChk">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>110</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>年龄</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="text_ageto">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>110</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>到</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="IDEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nameEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>70</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ageAEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>110</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ageBEdit">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>110</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="genderChk">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>70</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>性别</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="classChk">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>30</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>班级</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="classEdit">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>30</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="gnaq">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>80</y>
+       <width>191</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/GNAQ/Pictures/Saved Pictures/QQ图片20230116203146.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="courseIDChk">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>99</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>课号</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="courseIDEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>170</y>
+       <width>151</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="coursenameEdit">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>170</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="coursenameChk">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>170</y>
+       <width>99</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>课名</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="scoreChk">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>270</y>
+       <width>99</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>成绩</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="scoreAEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>270</y>
+       <width>51</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="scoreLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>241</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>表名: score</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="courseLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>241</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>表名: course</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="studentLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>191</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>表名: student</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="genderEdit">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>70</y>
+       <width>131</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="text_scoreto">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>270</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>到</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="scoreBEdit">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>270</y>
+       <width>51</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="creditEdit">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>210</y>
+       <width>151</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="creditChk">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>210</y>
+       <width>99</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>学分</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPlainTextEdit" name="sqlDisplay">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>811</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Fira Code</family>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="plainText">
+     <string>SQL Command...</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="sqlResult">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>881</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Fira Code Retina</family>
+     </font>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="RIGHT_PANEL" native="true">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>10</y>
+      <width>761</width>
+      <height>991</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="loadBtn_Table1">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>120</y>
+       <width>61</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>装载</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_Table3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>730</y>
+       <width>731</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_Table2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>731</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_Table1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>731</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="t1Label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>表 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="loadBtn_Table2">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>410</y>
+       <width>61</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>装载</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="t2Label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>410</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>表 2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="loadBtn_Table3">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>700</y>
+       <width>61</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>装载</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="t3Label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>700</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>表 3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="dbSelBtn">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>30</y>
+       <width>99</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>使用此库</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dbSelLabel">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>30</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>数据库名</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dbStatusLabel">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>60</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Code</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>Current DB:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="tableCBox1">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>120</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="tableCBox2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>410</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="tableCBox3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>700</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="dbSelCBox">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>30</y>
+       <width>151</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="sqlExecResult">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>910</y>
+      <width>871</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Fira Code Retina</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Result Feedback:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="execBtn">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>360</y>
+      <width>61</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>执行</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>IDChk</tabstop>
+  <tabstop>IDEdit</tabstop>
+  <tabstop>nameChk</tabstop>
+  <tabstop>nameEdit</tabstop>
+  <tabstop>ageChk</tabstop>
+  <tabstop>ageAEdit</tabstop>
+  <tabstop>ageBEdit</tabstop>
+  <tabstop>classChk</tabstop>
+  <tabstop>classEdit</tabstop>
+  <tabstop>genderChk</tabstop>
+  <tabstop>genderEdit</tabstop>
+  <tabstop>courseIDChk</tabstop>
+  <tabstop>courseIDEdit</tabstop>
+  <tabstop>coursenameChk</tabstop>
+  <tabstop>coursenameEdit</tabstop>
+  <tabstop>scoreChk</tabstop>
+  <tabstop>scoreAEdit</tabstop>
+  <tabstop>constructBtn</tabstop>
+  <tabstop>sqlDisplay</tabstop>
+  <tabstop>execBtn</tabstop>
+  <tabstop>sqlResult</tabstop>
+  <tabstop>dbSelCBox</tabstop>
+  <tabstop>dbSelBtn</tabstop>
+  <tabstop>tableCBox1</tabstop>
+  <tabstop>loadBtn_Table1</tabstop>
+  <tabstop>tableView_Table1</tabstop>
+  <tabstop>tableCBox2</tabstop>
+  <tabstop>loadBtn_Table2</tabstop>
+  <tabstop>tableView_Table2</tabstop>
+  <tabstop>tableCBox3</tabstop>
+  <tabstop>loadBtn_Table3</tabstop>
+  <tabstop>tableView_Table3</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
